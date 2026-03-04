@@ -98,21 +98,11 @@ The current script chooses the final “best model” by **test-period Strategy 
 
 ## Environment Setup (Python 3.12.12)
 
-### Option A: venv (recommended)
 
 ```bash
-cd /Users/dennis/Desktop/src/qqq
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### Option B: conda
-
-```bash
-conda create -n qqq-31212 python=3.12.12 -y
-conda activate qqq-31212
 pip install -r requirements.txt
 ```
 
