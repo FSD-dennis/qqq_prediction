@@ -104,12 +104,6 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-```
-
-## Run
-
-```bash
-cd /Users/dennis/Desktop/src/qqq
 python qqq_pipeline.py
 ```
 
